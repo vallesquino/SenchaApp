@@ -9,25 +9,32 @@ Ext.define('SenchaApp.model.CarModel', {
 
     fields: [{
         name: 'id',
-        type: 'string'
+        type: 'string',
+        mapping: 'Id'
     }, {
         name: 'brand',
-        type: 'string'
+        type: 'string',
+        mapping: 'Name'
     }, {
         name: 'brandId',
-        type: 'string'
+        type: 'string',
+        mapping: 'Brand__c'
     }, {
         name: 'fuel',
-        type: 'string'
+        type: 'string',
+        mapping: 'Fuel__c'
     }, {
         name: 'colour',
-        type: 'string'
+        type: 'string',
+        mapping: 'Colour__c'
     }, {
         name: 'licenseNumber',
-        type: 'string'
+        type: 'string',
+        mapping: 'LicenseNumber__c'
     }, {
         name: 'sold',
-        type: 'boolean'
+        type: 'boolean',
+        mapping: 'Sold__c'
     }, {
         name: 'price',
         type: 'float'

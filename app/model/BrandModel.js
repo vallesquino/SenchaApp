@@ -3,9 +3,11 @@ Ext.define('SenchaApp.model.BrandModel', {
 
     fields: [{
         name: 'id',
-        type: 'string'
+        type: 'string',
+        mapping: 'Id'
     }, {
         name: 'brand',
-        type: 'string'
+        type: 'string',
+        mapping: 'Name'
     }]
 });
